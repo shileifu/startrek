@@ -1,0 +1,6 @@
+apiVersion: starrocks.com/v1alpha1
+kind: StarDeployment
+metadata:
+  name: stardeployment-sample
+spec:
+  # TODO(user): Add fields here

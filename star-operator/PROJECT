@@ -1,0 +1,15 @@
+domain: starrocks.com
+layout:
+- go.kubebuilder.io/v3
+projectName: star-operator
+repo: github.com/shileifu/startrek/star-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: starrocks.com
+  kind: StarDeployment
+  path: github.com/shileifu/startrek/star-operator/api/v1alpha1
+  version: v1alpha1
+version: "3"
